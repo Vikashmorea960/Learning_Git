@@ -22,6 +22,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('helo4') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
     post{
         always{
