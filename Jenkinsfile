@@ -10,7 +10,7 @@ pipeline {
     }
     post{
         always{
-            emailext body: 'jay', subject: 'thyyyy', to: 'ranadhr19@gmail.com'
+            emailext body: 'jay', subject: 'thyyyy', to: 'ranabjhbhjbh@gmail.com'
         }
     }
 }
