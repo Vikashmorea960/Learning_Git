@@ -7,31 +7,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('helo1') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        stage('helo2') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        stage('helo3') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        stage('helo4') {
-            steps {
-                echo 'Hello World'
-            }
-        }
     }
     post{
         always{
-            emailext body: 'gvhb', subject: 'v', to: 'vikashsams9600@gmail.com'
+            emailext body: 'jay', subject: 'thyyyy', to: 'ranadhruv019@gmail.com'
         }
     }
 }
-
