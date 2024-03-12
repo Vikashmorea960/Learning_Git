@@ -1,0 +1,6 @@
+some text
+<<<<<<< HEAD
+some text add
+=======
+add some text
+>>>>>>> f1
