@@ -5,3 +5,4 @@ some text add
 add some text
 >>>>>>> f1
 some new text.
+made some changes
